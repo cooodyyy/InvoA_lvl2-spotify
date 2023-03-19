@@ -3,6 +3,13 @@
 /// For examples see Material Design color system: https://m2.material.io/design/color/the-color-system.html
 
 :root {
-    --color-primary: #5721f2;
-    --color-on-surface: #000;
+  // main colors
+  --color-primary: #65d36e;
+  --color-secondary: #000;
+  --color-secondary-70: hsla(0, 0%, 0%, 0.7);
+  --color-secondary-50: hsla(0, 0%, 0%, 0.5);
+  --color-secondary-20: hsla(0, 0%, 0%, 0.2);
+
+  // footer colors
+  --color-footer-bg: #121212;
 }

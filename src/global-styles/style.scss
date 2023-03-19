@@ -5,9 +5,15 @@
 @import "styles/_root.scss";
 @import "styles/_fonts.scss";
 
+
+* {
+  box-sizing: border-box;
+  border: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--color-primary);
+  color: #fff;
 }
 
 p {
