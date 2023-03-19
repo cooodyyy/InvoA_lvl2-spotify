@@ -1,35 +1,11 @@
 /// Homepage Styles File
 /// Here we import all the Styles files we need for our Homepage.
 
-.top-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 84px;
-    background-color: var(--color-secondary-50);
+@import "./_top-bar.scss";
+@import "./_header.scss";
+@import "./_main.scss";
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px;
-
-
-    &__container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 1.5rem
-    }
-
-    &__arrow {
-        cursor: not-allowed;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        background-color: black;
-
-        padding: 1rem;
-        border-radius: 50%;
-    }
-}   
+#home-page {
+    background-color: var(--color-secondary-desktop);
+    min-height: 100vh;
+}

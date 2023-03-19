@@ -1,0 +1,15 @@
+.header{
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 434px;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../../../../public/images/playlist-image-desktop.jpg);
+    background-color: var(--color-secondary-desktop);
+
+    &__info{
+        position: relative;
+        top: 50px;
+    }
+}
