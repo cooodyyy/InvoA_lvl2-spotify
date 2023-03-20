@@ -21,11 +21,11 @@
 
   --padding-sides: 50px;
 
-  --header-img: url(../../../public/images/header-img-large.jpg);
+  --header-img: url(../../../images/header-img-large.jpg);
 
   @media screen and (max-width: 1023px) {
     --color-secondary: #000;
     --padding-sides: 1rem;
-    --header-img: url(../../../public/images/header-img-small.jpg);
+    --header-img: url(../../../images/header-img-small.jpg);
   }
 }
