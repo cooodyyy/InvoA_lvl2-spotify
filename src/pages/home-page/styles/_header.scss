@@ -1,15 +1,36 @@
-.header{
-    position: absolute;
-    background-repeat: no-repeat;
-    height: 434px;
-    width: 100vw;
-    background-position: center;
-    background-size: cover;
-    background-image: url(../../../../public/images/playlist-image-desktop.jpg);
-    background-color: var(--color-secondary-desktop);
+.header {
+  position: absolute;
+  background-repeat: no-repeat;
+  height: 434px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../../../../public/images/playlist-image-desktop.jpg);
+  background-color: var(--color-secondary-desktop);
+}
 
-    &__info{
-        position: relative;
-        top: 50px;
-    }
+.heading {
+  position: relative;
+  box-sizing: content-box;
+  top: 156px;
+  max-width: 400px;
+  margin: 0;
+  padding: 0 var(--padding-sides);
+
+  display: flex;
+  flex-direction: column;
+
+  &__small {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+  }
+
+  &__title {
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -2.5px;
+    line-height: 100%;
+    margin: 1.5rem 0;
+  }
 }

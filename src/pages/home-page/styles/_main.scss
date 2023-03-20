@@ -1,8 +1,8 @@
 main {
     position: relative;
     top: 434px;
-    padding: 2rem 50px ;
-}
+    padding: 2rem var(--padding-sides) ;
+}   
 
 .actions {
     display: flex;
