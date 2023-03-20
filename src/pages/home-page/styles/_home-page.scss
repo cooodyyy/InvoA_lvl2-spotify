@@ -6,6 +6,8 @@
 @import "./_main.scss";
 
 #home-page {
-    background-color: var(--color-secondary);
-    min-height: 100vh;
+  background-color: var(--color-secondary);
+  min-height: 100vh;
+  max-width: var(--width-max-main);
+  margin: 0 auto;
 }

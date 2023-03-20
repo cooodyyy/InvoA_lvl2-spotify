@@ -2,11 +2,17 @@
   position: absolute;
   background-repeat: no-repeat;
   height: 434px;
-  width: 100vw;
+  width: 100%;
+  max-width: var(--width-max-main);
+
   background-position: center;
   background-size: cover;
-  background-image: url(../../../../public/images/playlist-image-desktop.jpg);
-  background-color: var(--color-secondary-desktop);
+  background-image: var(--header-img);
+  background-color: var(--color-secondary);
+
+  @media screen and (max-width: 1023px) {
+    background-position: right;
+  }
 }
 
 .heading {
@@ -20,10 +26,23 @@
   display: flex;
   flex-direction: column;
 
+  @media screen and (max-width: 1023px) {
+    top: 227px;
+    padding: 0 2rem;
+  }
+  @media screen and (max-width: 376px) {
+    top: 236px;
+    padding: 0 1.5rem 0 2rem;
+  }
+
   &__small {
     font-size: 18px;
     font-weight: 400;
     letter-spacing: -0.5px;
+
+    @media screen and (max-width: 1023px) {
+      font-size: 16px;
+    }
   }
 
   &__title {
@@ -32,5 +51,11 @@
     letter-spacing: -2.5px;
     line-height: 100%;
     margin: 1.5rem 0;
+
+    @media screen and (max-width: 1023px) {
+      font-size: 48px;
+      letter-spacing: -1.8px;
+      margin: 1rem 0;
+    }
   }
 }
