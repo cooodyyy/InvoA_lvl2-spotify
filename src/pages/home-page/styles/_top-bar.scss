@@ -17,7 +17,7 @@
     padding: 0 1rem;
   }
 
-  &__container {
+  & &__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,7 @@
     }
   }
 
-  &__arrow {
+  & &__arrow {
     cursor: not-allowed;
     display: flex;
     justify-content: center;
@@ -55,11 +55,11 @@
     }
   }
 
-  &__user-avatar {
+  & &__user-avatar {
     height: 100%;
   }
 
-  &__user-avatar img {
+  & &__user-avatar img {
     height: 100%;
     border-radius: 50%;
     padding: 2px;
