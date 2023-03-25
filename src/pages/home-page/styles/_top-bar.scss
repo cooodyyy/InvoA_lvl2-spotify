@@ -22,20 +22,6 @@
     align-items: center;
     justify-content: space-between;
     gap: 1.5rem;
-
-    &--right {
-      cursor: pointer;
-      gap: 12px;
-      height: 44px;
-      background-color: var(--color-secondary-50);
-      padding-right: 32px;
-      border-radius: 22px;
-      overflow: hidden;
-
-      @media screen and (max-width: 1023px) {
-        display: none;
-      }
-    }
   }
 
   & &__arrow {
@@ -53,15 +39,5 @@
         display: none;
       }
     }
-  }
-
-  & &__user-avatar {
-    height: 100%;
-  }
-
-  & &__user-avatar img {
-    height: 100%;
-    border-radius: 50%;
-    padding: 2px;
   }
 }
