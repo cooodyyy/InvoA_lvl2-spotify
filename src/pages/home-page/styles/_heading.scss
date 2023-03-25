@@ -20,17 +20,18 @@
     & &__small {
       font-size: 18px;
       font-weight: 400;
-      letter-spacing: -0.5px;
+      letter-spacing: -.6px;
   
       @media screen and (max-width: 1023px) {
         font-size: 16px;
+        letter-spacing: -.55px;
       }
     }
   
     & &__title {
       font-size: 68px;
       font-weight: 700;
-      letter-spacing: -2.5px;
+      letter-spacing: -2.55px;
       line-height: 100%;
       margin: 1.5rem 0;
   

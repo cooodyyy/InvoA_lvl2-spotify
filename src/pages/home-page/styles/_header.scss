@@ -5,12 +5,34 @@
   width: 100%;
   max-width: var(--width-max-main);
 
-  background-position: center;
+  background-position-x: right;
+  background-position-y: 64%;
   background-size: cover;
   background-image: var(--header-img);
   background-color: var(--color-secondary);
 
+  @media screen and (max-width: 1361px) {
+    background-position-x: center;
+  }
+
   @media screen and (max-width: 1023px) {
-    background-position: right;
+    background-position-y: -10px;
+  }
+
+  @media screen and (max-width: 785px) {
+    background-position-x: 75%;
+  }
+
+  @media screen and (max-width: 376px) {
+    background-position-x: -638px;
+    background-position-y: -1px;
+  }
+
+  @media screen and (max-width: 336px) {
+    background-position-x: -658px;
+  }
+
+  @media screen and (max-width: 316px) {
+    background-position-x: -698px;
   }
 }
