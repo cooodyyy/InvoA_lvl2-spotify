@@ -1,22 +1,48 @@
 main {
-    position: relative;
-    top: 434px;
-    padding: 2rem var(--padding-sides) ;
-}   
+  position: relative;
+  top: 434px;
+  padding: 2rem var(--padding-sides);
+
+  @media screen and (max-width: 1023px) {
+    padding: 1rem var(--padding-sides);
+  }
+
+  @media screen and (max-width: 376px) {
+    padding: 1.5rem var(--padding-sides);
+  }
+}
 
 .actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2rem;
+
+  & &__button {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 2rem;
+    justify-content: center;
+    background: transparent;
+    border: none;
+  }
 
-    &__button {
-        padding: 0;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: transparent;
-        border: none;
+  & &__icon {
+    @media screen and (max-width: 1023px) {
+      &--1 {
+        height: 55px;
+        width: 55px;
+      }
+      &--2 {
+        height: 26px;
+        width: 26px;
+      }
+      &--3 {
+        height: 46px;
+        width: 46px;
+      }
     }
+  }
 }
