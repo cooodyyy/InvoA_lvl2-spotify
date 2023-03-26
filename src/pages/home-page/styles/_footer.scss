@@ -2,16 +2,16 @@
   background-color: var(--color-footer-bg);
   padding: 100px var(--padding-sides) 2rem;
 
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  // position: absolute;
+  // bottom: 0;
+  // right: 0;
+  // left: 0;
 
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 
-  //   display: none;
+  // display: none;
 
   & &__lists {
     display: flex;
@@ -64,5 +64,29 @@
     font-size: 14px;
     line-height: 17px;
     font-weight: var(--font-weight-regular);
+  }
+
+  & &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 402px;
+  }
+
+  & &__icon {
+    display: inline-block;
+    height: 40px;
+    margin-right: 9px;
+    background-color: #292929;
+    border-radius: var(--border-radius-s);
+    transition: background-color 0.2s;
+    padding: 10px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
   }
 }
