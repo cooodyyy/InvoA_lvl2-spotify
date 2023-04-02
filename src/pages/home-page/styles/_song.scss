@@ -1,0 +1,24 @@
+.song {
+  display: flex;
+
+  height: 89px;
+  padding: 25px var(--padding-sides);
+
+  background-color: var(--color-song-bg-static);
+
+  & &__label {
+    display: block;
+
+    // // typography
+    // font-family: Lato;
+    // font-size: 12px;
+    // font-weight: 500;
+    // line-height: 14px;
+    // letter-spacing: 0em;
+    // text-align: left;
+  }
+
+  & &__info {
+    display: block;
+  }
+}
